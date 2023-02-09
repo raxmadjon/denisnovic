@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url(./fonts/Gilroy-Medium.ttf);
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: none;
+    font-family: Gilroy-Bold, GilroyMedium,sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.h1 {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #828282;
+}
+
+.button1 {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.button1:hover{
+    color: #000;
+}
+
+.button {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+}
+.button:hover{
+    color: #000;
+}
+
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+.main1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.btn {
+    font-family: GilroyMedium;
+    margin-top: 0 auto;
+    font-size: 18px;
+}
+
+.title1 {
+    margin-top: 0 auto;
+    font-size: 16px;
+    color: #828282;
+    line-height: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.about-me{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.butt {
+    font-size: 34px;
+    color: #070707;
+}
+
+.bot {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.button2 {
+    font-family: GilroyMedium;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+}
+
+.skill {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.skill1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.tx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    font-family: GilroyMedium;
+    font-size: 18px;
+    color: #070707;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.skill-item span {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    color: #828282;
+}
+
+.stars {
+    display: flex;
+    gap: 0px;
+}
+
+.portoilo {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.port {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.conts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button3 {
+    font-family: GilroyMedium;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+}
+
+.title1 {
+    z-index: -1;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.box{
+    width: 150px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: black;
+}
